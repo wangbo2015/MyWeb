@@ -18,17 +18,25 @@
             font-family: Arial, sans-serif;
         }
 
-        a {
+        /* 按钮样式 */
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
             font-family: Arial, sans-serif;
             text-decoration: none;
-            color: #007BFF;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
         }
 
-        a:hover {
-            text-decoration: underline;
+        .btn:hover {
+            background-color: #0056b3;
         }
 
-        /* 让链接居中显示 */
+        /* 让按钮居中显示 */
         .link-container {
             text-align: center;
             margin-top: 20px;
@@ -38,12 +46,12 @@
 
 <body>
     <h1 align='center'>赋能少年的资源网站</h1>
-    <h2 align='center'>这是我的资源网站<br>后续会更新(该网站在 2025 年 2 月 28 日过期)</h2>
+    <h2 align='center'>这是我的资源网站<br>后续会更新(该网站在2025年2月28日过期)</h2>
     <div class="link-container">
         <a href='https://software.download.prss.microsoft.com/dbazure/Win11_24H2_Pro_Chinese_Simplified_x64.iso?t=74240d58-daad-4382-8f2f-b66060dc196e&P1=1738228472&P2=601&P3=2&P4=Jp56bwHLXKcicvavEZ1CIqfgal1bhzRy15LBuu%2b%2f7CI6nUFF7Iy%2ffHFEXuy7Y6S5JBcrp%2fO%2bj5HaWqeM8f6ChbUznOH53KPm9fXx8n9Gh2PjnHEEzjBAEG%2blMBgLmpZdGwKx124hiNg9oTfTPx16v3YwzuJU%2fywMSc3%2fCUyjQnLRcKYtImm8GfBRQ%2f%2fRGgG2wSWhxyHI%2fHiKxiu5D3JrYHsYnAwISJJGrUnrdLJ53dKJqNzmRRN3Ly9A%2bNwiOc3Ht5fX8i7cCGGk8IA%2bygiJn4Xznp%2fvhiKG3rqEgObLa%2f0Ed8IlSzjybOvnRFk69t3rNXvozhWc1ZSOjpleiOw5iQ%3d%3d'
-            target='_blank'>Windows11 镜像下载文件</a>
+            target='_blank' class="btn">Windows11镜像下载文件</a>
         &nbsp;&nbsp;&nbsp;
-        <a href='https://pan.baidu.com/s/1zUFDsFoJgfmJGLv_5uqOAw?pwd=qpng' target='_blank'>VMware17 下载文件</a>
+        <a href='https://pan.baidu.com/s/1zUFDsFoJgfmJGLv_5uqOAw?pwd=qpng' target='_blank' class="btn">VMware17下载文件</a>
     </div>
 </body>
 
